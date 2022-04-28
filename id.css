@@ -1,0 +1,11 @@
+/*For class, we were using a dot (.). But for Id, we use (#)*/
+
+
+#heading{
+    color: red;
+    background-color: aqua;
+}
+
+p#One{
+    color: olive;
+}
