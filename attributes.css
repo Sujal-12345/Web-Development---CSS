@@ -1,0 +1,14 @@
+li[class]{
+    font-size: 50px;
+}
+
+
+li[class="a"]{
+    color: brown;
+}
+
+
+/* the operator(~) chooses the classes which contains a, irrespective of other elements*/
+li[class~="a"]{
+    font-weight: bold;
+}
