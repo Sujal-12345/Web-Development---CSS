@@ -1,0 +1,32 @@
+/*.special {
+    color: orangered;
+    font-weight: bold;
+}*/
+
+/* What if we do not want <em> tag to be a class but the other two to be a class. We can use the code Below*/
+
+span.special,li.special {
+        color: orangered;
+        font-weight: bold;
+}
+li em{
+    color: rebeccapurple;
+    font-weight: 700;
+}
+
+h1+p{
+    font-size: 200%;
+}
+
+/*to Change the Link Hover color*/
+a:hover{
+    color:brown;
+    text-decoration: none;
+}
+
+/*Changing the style of specific element in Webpage*/
+body h1+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
