@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="specificity.css">
+    <style>
+        /* Hover over the style headings and take a look at specificity.
+        You will see that specificity of (.Favourite) is less than Specificity of (ul#Drinks li)
+        Thus Properties inside the second heading are prioritized more than that inside first heading*/
+        
+        .Favourite{             
+            font-weight: 300;
+        }
+        ul#Drinks li{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+
+    <title>specificity</title>
+    
+</head>
+<body>
+    <ul id="Drinks">
+        <li>Pepsi</li>
+        <li class="Favourite">Coca Cola</li>
+        <li style="font-size: 50px;">Mountain Dew</li>    <!--Here the specificity of style is the highest. Because style is declared inside the tag-->  
+        <li>Sprite</li>
+        <li>Appy Fizz</li>
+
+    </ul>
+
+</body>
+</html>
