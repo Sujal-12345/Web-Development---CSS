@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow in CSS</title>
+    <style>
+        .word{
+            border: 5px dashed blue;
+            font-size: 300%;
+            width: 100px;
+            overflow:visible;       /*Makes the Overflow content visible*/
+        }
+        .word2{
+            border: 3px dashed green;
+            font-size: 300%;
+            width: 100px;
+            overflow:hidden;        /*Makes the Overflow content hidden*/
+        }
+        .word3{
+            border: 3px solid orange;
+            font-size: 300%;
+            width: 100px;
+            overflow:scroll;        /*Lets you scroll the overflow content*/
+        }
+        .word4{
+            border: 5px dotted black;
+            font-size: 300%;
+            width: 100px;
+            overflow:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="word">Overflow</div>
+    <br>
+    <div class="word2">Overflow1</div>
+    <br>
+    <div class="word3">Overflow2</div>
+    <br>
+    <div class="word4">Overflow3</div>
+</body>
+</html>
