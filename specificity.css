@@ -1,0 +1,9 @@
+/* If the specificity of headings is same then the one below is prioritized*/
+
+.Favourite{
+    color: red;
+}
+
+.Favourite{
+    color: green;
+}
